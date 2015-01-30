@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+#wrapper {
+  background-image: url(../img/img_two.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* filter: blur(10px); */
+  /* -webkit-filter: blur(10px); */
+  /* -moz-filter: blur(10px); */
+  /* -ms-filter: blur(10px); */
+  position: absolute;
+  z-index: -1;
+}
+
+#wrapper:hover {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px); 
+}
+
+
+a {
+  text-decoration: none;
+}
+
+#text ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+#text li{
+  padding: 10px;
+}
+
+#text a{
+  font-size: 28px;
+  color: white;
+  background-color: rgba(105, 105, 105, 0.3);
+  padding: 3px;
+}
