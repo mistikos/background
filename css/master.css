@@ -5,8 +5,10 @@ body {
 #wrapper {
   background-image: url(../img/img_two.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -30 center;
   height: 100%;
-  width: 100%;
+  width: 130%;
   /* filter: blur(10px); */
   /* -webkit-filter: blur(10px); */
   /* -moz-filter: blur(10px); */

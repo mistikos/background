@@ -7,4 +7,15 @@ $(document).ready(function(){
     event.stopPropagation();
   })
 
+  var window_x = $( document ).width();
+  var mid = window_x / 2
+
+  $('body').mousemove(function(event){
+    move_x = event.pageX;
+    var factor = ((mid - move_x) / mid) * 30 - 30
+    // console.log(event.pageX);
+    console.log(factor);
+    $('#wrapper').css({'background-position': factor + ' center'})
+  })
+
 })
